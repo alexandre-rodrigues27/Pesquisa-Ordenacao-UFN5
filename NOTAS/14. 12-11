@@ -1,0 +1,16 @@
+Sistema para encurtador
+
+1º) Enrar LINK ORIGINAL: www.ufn.edu.br
+
+2º) Gerar HASH (Positivo) do LINK ORIGINAL
+
+3º) Armazenar em HASHMAP
+    - chave: hash gerado
+    - conteúdo: link original
+
+4º) Devolver LINK ENCURTADO: http://<DOMINIO>/HASH
+
+5º) Acessar o LINK ENCURTADO
+    - informar o link encurtado
+    - pesquisar hashmap pelo hash
+    - devolver o link original
