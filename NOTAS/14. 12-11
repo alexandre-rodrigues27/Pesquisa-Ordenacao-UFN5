@@ -6,7 +6,7 @@ Sistema para encurtador
 
 3º) Armazenar em HASHMAP
     - chave: hash gerado
-    - conteúdo: link original
+    - conteúdo: {link original, cliques}
 
 4º) Devolver LINK ENCURTADO: http://<DOMINIO>/HASH
 
